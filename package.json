@@ -16,7 +16,13 @@
   "dependencies": {
     "muse-ui": "^3.0.0-rc.4",
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1",
+    "fastclick": "^1.0.6",
+    "iscroll": "^5.2.0",
+    "showdown": "^1.6.4",
+    "better-scroll": "^0.1.15",
+    "typeface-roboto": "^0.0.54"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

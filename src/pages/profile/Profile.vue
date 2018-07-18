@@ -1,10 +1,10 @@
 <template>
   <div>
-    i am index !
+    这是用户中心
   </div>
 </template>
 
-<script>export default { name: 'index' };
+<script>export default { name: 'profile' };
 </script>
 
 <style scoped>

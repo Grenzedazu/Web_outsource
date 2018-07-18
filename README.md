@@ -1,8 +1,20 @@
+
 # dev
 
-> A Vue.js project
+> 一个～～睿智～～初学项目
+##依赖
+* 已经在package中写好了
 
-## Build Setup
+##UI库
+* muse-ui
+
+##TO-DO
+* 商城购物车/详情页
+* 个人中心
+* 外卖页在review之后才会合并（这部分不需要完成）
+* 数据绑定
+
+## 如何安装和调试
 
 ``` bash
 # install dependencies
