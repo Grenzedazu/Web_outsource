@@ -3,7 +3,7 @@
     <mu-container>
         <mu-row>
     <mu-col span="12">
-      <mu-card style="width: 100%; margin: 0 auto;">
+      <mu-card style="width: 100%; margin: 0 auto; padding-bottom: 48px">
         <mu-list>
           <mu-sub-header>历史订单</mu-sub-header>
           <!-- TO-DO嵌套v-for语句 -->

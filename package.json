@@ -14,15 +14,17 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "muse-ui": "^3.0.0-rc.4",
-    "vue": "^2.5.2",
-    "vue-router": "^3.0.1",
-    "vuex": "^3.0.1",
+    "axios": "^0.18.0",
+    "better-scroll": "^0.1.15",
     "fastclick": "^1.0.6",
     "iscroll": "^5.2.0",
+    "muse-ui": "^3.0.0-rc.4",
+    "qs": "^6.5.2",
     "showdown": "^1.6.4",
-    "better-scroll": "^0.1.15",
-    "typeface-roboto": "^0.0.54"
+    "typeface-roboto": "^0.0.54",
+    "vue": "^2.5.2",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

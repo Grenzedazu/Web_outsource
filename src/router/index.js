@@ -13,6 +13,7 @@ import DeliveryDetails from '@/pages/delivery/children/DeliveryDetails';
 import DeliveryHistory from '@/pages/delivery/children/deliveryHistory';
 import address from '@/components/address';
 import payment from '@/components/payment';
+import orderdetails from '@/components/orderdetails';
 import App from '../App';
 
 /* eslint-disable */
@@ -90,6 +91,10 @@ export default new Router({
       {
         path: '/address',
         component: address,
+      },
+      {
+        path: '/orderdetails',
+        component: orderdetails,
       },
     ],
   },

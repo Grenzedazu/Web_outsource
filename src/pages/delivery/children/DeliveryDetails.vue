@@ -1,7 +1,7 @@
 <template>
     <div>
       <mu-container>
-    <mu-card style="width: 100%; margin: 0 auto;">
+    <mu-card style="width: 100%; margin: 0 auto;padding-bottom: 48px">
   <!-- <mu-card-header title="请设置您的送达时间">
     </mu-card-header> -->
     <mu-card-title sub-title="订单详情"></mu-card-title>
@@ -9,7 +9,7 @@
 <mu-date-input  icon="today" v-model="delivery_time" label="选择日期和时间" type="dateTime" style="width: 75%" label-float landscape></mu-date-input>
     <mu-card-title sub-title="你的快递大小"></mu-card-title>
     <mu-radio v-model="radio.size" value="L" uncheck-icon="view_stream_border" checked-icon="view_stream" label="大"></mu-radio>
-    <mu-radio v-model="radio.size" value="M" uncheck-icon="view_quilt_border" checked-icon="view_quilt" label="中"></mu-radio>
+    <!-- <mu-radio v-model="radio.size" value="M" uncheck-icon="view_quilt_border" checked-icon="view_quilt" label="中"></mu-radio> -->
     <mu-radio v-model="radio.size" value="S" uncheck-icon="view_module_border" checked-icon="view_module" label="小"></mu-radio>
     <mu-card-title sub-title="送达地址"></mu-card-title>
       <mu-select label="" v-model="address_selected_option.delivery_address" style="width: 75%" icon="location_on">

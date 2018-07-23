@@ -3,6 +3,8 @@
 
 import Vue from 'vue';
 import MuseUI from 'muse-ui';
+import axios from 'axios';
+import qs from 'qs';
 import 'muse-ui/dist/muse-ui.css';
 import theme from 'muse-ui/lib/theme';
 import FastClick from 'fastclick';
@@ -10,6 +12,9 @@ import FastClick from 'fastclick';
 import App from './App';
 import router from './router';
 
+// define prototype
+Vue.prototype.$ajax = axios;
+Vue.prototype.$qs = qs;
 /* eslint-disable */
 if ('addEventListener' in document) {
     document.addEventListener('DOMContentLoaded', function() {

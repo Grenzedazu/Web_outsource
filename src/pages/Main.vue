@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <mu-appbar style="width: 100%;" title="首页"></mu-appbar>
     <mu-flex justify-content="center" align-items="center">
     <mu-button round to="profile">
       <mu-icon left value="person"></mu-icon>

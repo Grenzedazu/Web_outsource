@@ -1,6 +1,6 @@
 <template>
     <div>
-        这里是地址页
+        这里是订单详情页
     </div>
 </template>
 <script>

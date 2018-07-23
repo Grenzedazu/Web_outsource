@@ -1,12 +1,13 @@
 <template>
 <div>
+  <div>
 <mu-container>
   <mu-row>
     <mu-col span="12">
-      <mu-card style="width: 100%; margin: 0 auto;">
+      <mu-card style="width: 100%; margin: 0 auto; padding-bottom：48px">
         <mu-list>
           <mu-sub-header>这些快递即将送达</mu-sub-header>
-          <mu-list-item button>
+          <mu-list-item button to="deliverydetails">
             <mu-list-item-content>
               <mu-list-item-title>1  书1</mu-list-item-title>
             </mu-list-item-content>
@@ -46,7 +47,14 @@
 </mu-button>
 </mu-flex>
 </div>
-
+<!-- <div style="padding-top:5px">
+      <mu-bottom-nav :value.sync="shift" shift class="nav" style="position:fixed;bottom:0;width:100%;z-index:997">
+        <mu-bottom-nav-item value="delivery" title="快递代拿" icon="transfer_within_a_station" to="/delivery"  tag="div"></mu-bottom-nav-item>
+        <mu-bottom-nav-item value="mall" title="线上商超" icon="shopping_cart" to="/Mall"  tag="div"></mu-bottom-nav-item>
+        <mu-bottom-nav-item value="schenk" title="堂食外卖" icon="free_breakfast" to="/schenk"  tag="div"></mu-bottom-nav-item>
+    </mu-bottom-nav>
+</div> -->
+</div>
 </template>
 
 <script>

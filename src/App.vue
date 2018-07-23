@@ -8,7 +8,7 @@
     <transition name="router-fade" mode="out-in">
       <router-view v-if="!$route.meta.keepAlive"></router-view>
     </transition>
-    <mu-bottom-nav :value.sync="shift" shift class="nav" style="position:fixed;bottom:0;width:100%;z-index:997">
+        <mu-bottom-nav :value.sync="shift" shift class="nav" style="position:fixed;bottom:0;width:100%;z-index:997">
         <mu-bottom-nav-item value="delivery" title="快递代拿" icon="transfer_within_a_station" to="/delivery"  tag="div"></mu-bottom-nav-item>
         <mu-bottom-nav-item value="mall" title="线上商超" icon="shopping_cart" to="/Mall"  tag="div"></mu-bottom-nav-item>
         <mu-bottom-nav-item value="schenk" title="堂食外卖" icon="free_breakfast" to="/schenk"  tag="div"></mu-bottom-nav-item>

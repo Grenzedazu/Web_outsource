@@ -1,16 +1,18 @@
 <template>
     <div>
     <mu-container>
-      <mu-grid-list class="gridlist-demo">
+    <mu-flex justify-content="start"> 
+      <mu-grid-list class="gridlist-demo" cols="2">
         <mu-grid-tile v-for="tile, index in list" :key="index">
           <img :src="tile.image" >
           <span slot="title">{{tile.title}}</span>
-          <span slot="subTitle">by <b>{{tile.author}}</b></span>
-          <mu-button slot="action" icon>
-            <mu-icon value="star_border"></mu-icon>
+          <span slot="subTitle"><b>{{tile.details}}</b></span>
+          <mu-button slot="action"  to="malldetail" icon>
+            <mu-icon value="shopping_cart"></mu-icon>
           </mu-button>
         </mu-grid-tile>
       </mu-grid-list>
+      </mu-flex>
         </mu-container>
         <mu-flex class="flex-wrapper" justify-content="end">
         <mu-button fab to='Mallcart' style="position:fixed;bottom:70px;z-index:996">
@@ -20,7 +22,9 @@
     </div>
 </template>
 
-<script>export default { 
+<script>
+import breakfast from '../../assets/icon.png';
+export default { 
     // import .jpg from assets
     name: 'mall',
     data(){
@@ -28,10 +32,8 @@
             list :[{
                 image: breakfast,
                 title: 'breakfast',
+                details: '这是测试的早饭'
                 // 其他信息
-            },
-            {
-                
             },
             ]
         }
