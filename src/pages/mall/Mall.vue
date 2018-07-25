@@ -2,7 +2,7 @@
     <div>
     <mu-container>
     <mu-flex justify-content="start"> 
-      <mu-grid-list class="gridlist-demo" cols="2">
+      <mu-grid-list class="gridlist-demo" col="2">
         <mu-grid-tile v-for="tile, index in list" :key="index">
           <img :src="tile.image" >
           <span slot="title">{{tile.title}}</span>

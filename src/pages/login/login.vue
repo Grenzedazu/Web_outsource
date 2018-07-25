@@ -50,7 +50,7 @@ export default {
       submitForm () {
     this.$ajax({
       method: 'post',
-      url: 'https://f9c6ea69.ngrok.io/wx/user/login',
+      url: 'https://localhost：8089/wx/user/login',
       header: {
         'Content-Type':'Application/json',
         'Authorization':''

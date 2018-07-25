@@ -55,7 +55,13 @@ name: 'deliverydetails',
         delivery_address: 'test2',
       }
     }
-  }
+  },
+  create(){
+    this.$ajax.get('').then(function(res){
+      delivery_time=res.data
+      // example !!!
+    })
+  },
 }
 </script>
 <style scoped>
