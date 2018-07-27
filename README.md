@@ -1,29 +1,38 @@
 
-# dev
+# 校园user外包
 
-> 一个～～睿智～～初学项目
-##依赖
-* 已经在package中写好了
+>vue.js 项目
 
-##UI库
-* muse-ui
+## 依赖
+* [node js (stable v8.11)](https://nodejs.org/en/) 商业外包，请使用稳定版本
+* [vue.js](https://muse-ui.org/#/zh-CN) 
+* 其余依赖已经写在package.json中，请自行查看
 
-##TO-DO
-* 商城购物车/详情页
-* 个人中心
-* 外卖页在review之后才会合并（这部分不需要完成）
-* 数据绑定
+## UI库
+* [muse-ui](https://muse-ui.org/#/zh-CN)  grid，card，list，layout，button为重点
+* 请到UI分支中获取设计样式
 
+## TO-DO
+1. 堂食外带 购物车组件+购物按钮
+2. 线上商超 商品详情页
+3. 线上商超 购物车页面
+4. 个人中心
+5. 首页按钮栏
+6. 支付页
+7. 登录页完善
+8. 注册页面 流程引导
+9. 堂食外带满减功能实现
+10. 数据绑定
 ## 如何安装和调试
 
 ``` bash
-# install dependencies
+# 安装依赖
 npm install
 
-# serve with hot reload at localhost:8080
+# 热调试端口 localhost:8080
 npm run dev
 
-# build for production with minification
+# 最终产品编译
 npm run build
 
 # build for production and view the bundle analyzer report
