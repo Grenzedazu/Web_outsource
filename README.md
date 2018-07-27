@@ -10,7 +10,7 @@
 
 ## UI库
 * [muse-ui](https://muse-ui.org/#/zh-CN)  grid，card，list，layout，button为重点
-* 请到[UI分支](http://120.24.90.180:10080/School_User_Epiboly/Web_vue)中获取设计样式
+* 请到[UI分支](https://github.com/Grenzedazu/Web_Design)中获取设计样式
 
 ## TO-DO
 1. 堂食外带 购物车组件+购物按钮
