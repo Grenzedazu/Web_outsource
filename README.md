@@ -5,7 +5,7 @@
 
 ## 依赖
 * [node js (stable v8.11)](https://nodejs.org/en/) 商业外包，请使用稳定版本
-* [vue.js](https://muse-ui.org/#/zh-CN) 
+* [vue.js](https://cn.vuejs.org/) 
 * 其余依赖已经写在package.json中，请自行查看
 
 ## UI库
