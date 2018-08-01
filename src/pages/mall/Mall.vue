@@ -1,7 +1,7 @@
 <template>
     <div>
     <mu-container>
-    <mu-flex justify-content="start"> 
+    <mu-flex justify-content="start">
       <mu-grid-list class="gridlist-demo" col="2">
         <mu-grid-tile v-for="tile, index in list" :key="index">
           <img :src="tile.image" >
@@ -24,20 +24,21 @@
 
 <script>
 import breakfast from '../../assets/icon.png';
-export default { 
-    // import .jpg from assets
-    name: 'mall',
-    data(){
-        return{
-            list :[{
-                image: breakfast,
-                title: 'breakfast',
-                details: '这是测试的早饭'
-                // 其他信息
-            },
-            ]
-        }
-    }
+
+export default {
+  // import .jpg from assets
+  name: 'mall',
+  data() {
+    return {
+      list: [{
+        image: breakfast,
+        title: 'breakfast',
+        details: '这是测试的早饭',
+        // 其他信息
+      },
+      ],
+    };
+  },
 };
 </script>
 

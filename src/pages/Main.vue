@@ -4,7 +4,7 @@
     <mu-button round to="profile">
       <mu-icon left value="person"></mu-icon>
       <!-- 更改为获取微信头像,user昵称 -->
-      {{username}}, 欢迎回来 
+      {{username}}, 欢迎回来
     </mu-button>
     </mu-flex>
     <mu-container>
