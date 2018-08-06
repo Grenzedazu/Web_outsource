@@ -104,6 +104,9 @@ export default {
         width: 80px;
         background-color:#f3f5f7;
     }
+    .foods-wrapper{
+        flex: 1;
+    }
     .menu-item{
         display: table;
         height: 54px;
