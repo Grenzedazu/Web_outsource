@@ -1,0 +1,72 @@
+.
+├── README.md
+├── build
+│   ├── build.js
+│   ├── check-versions.js
+│   ├── logo.png
+│   ├── utils.js
+│   ├── vue-loader.conf.js
+│   ├── webpack.base.conf.js
+│   ├── webpack.dev.conf.js
+│   ├── webpack.prod.conf.js
+│   └── webpack.test.conf.js
+├── config
+│   ├── dev.env.js
+│   ├── index.js
+│   ├── prod.env.js
+│   └── test.env.js
+├── index.html
+├── list.txt
+├── package-lock.json
+├── package.json
+├── src
+│   ├── App.vue
+│   ├── assets
+│   │   ├── icon.png
+│   │   └── logo.jpg
+│   ├── components
+│   │   ├── chart.vue
+│   │   ├── login.vue
+│   │   └── management.vue
+│   ├── main.js
+│   ├── pages
+│   │   ├── Main.vue
+│   │   ├── chart
+│   │   │   ├── chart.vue
+│   │   │   └── children
+│   │   │       ├── chartDetail.vue
+│   │   │       ├── chartexport.vue
+│   │   │       └── peer.jpg
+│   │   ├── download
+│   │   │   ├── children
+│   │   │   │   ├── Details.vue
+│   │   │   │   ├── History.vue
+│   │   │   │   └── Info.vue
+│   │   │   └── download.vue
+│   │   ├── login
+│   │   │   └── login.vue
+│   │   ├── profile
+│   │   │   ├── Profile.vue
+│   │   │   └── ProfilePhoto.jpg
+│   │   └── schenk
+│   │       └── Schenk.vue
+│   ├── router
+│   │   └── index.js
+│   └── store
+│       └── store.js
+├── static
+└── test
+    ├── e2e
+    │   ├── custom-assertions
+    │   │   └── elementCount.js
+    │   ├── nightwatch.conf.js
+    │   ├── runner.js
+    │   └── specs
+    │       └── test.js
+    └── unit
+        ├── index.js
+        ├── karma.conf.js
+        └── specs
+            └── HelloWorld.spec.js
+
+22 directories, 47 files
